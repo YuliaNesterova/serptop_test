@@ -413,3 +413,248 @@
     color: #1E1744;
     margin: 0;
 }
+
+@media(max-width: 1600px) {
+    .header__link-item:not(:last-child) {
+        margin-right: 30px;
+    }
+
+    .header__link {
+        font-size: 14px;
+    }
+    .lead {
+        padding: 14px 14px 42px 14px;
+    }
+    .slider__image {
+        width: 1600px;
+        height: 765px;
+    }
+}
+
+@media(max-width: 1280px) {
+    .header {
+        padding: 16px 20px 13px 20px;
+    }
+
+    .header__link-item:not(:last-child) {
+        margin-right: 10px;
+    }
+
+    .header__link {
+        font-size: 12px;
+    }
+
+    .header__location-item {
+        margin-right: 40px;
+    }
+
+    .header__location-item:last-child {
+        margin-right: 15px;
+    }
+
+    .header__location-link {
+        font-size: 12px;
+        margin-left: 0;
+    }
+
+    .header__location-img {
+        width: 12px;
+        height: 12px;
+    }
+
+    .header__location-number {
+        font-size: 14px;
+    }
+
+    .lead {
+        padding: 14px 10px 42px 10px;
+    }
+
+    .lead__item:not(:last-child) {
+        margin-right: 15px;
+    }
+
+    .lead__item_type_more {
+        font-size: 14px;
+    }
+
+    .lead__link {
+        font-size: 14px;
+    }
+
+    .slider__image {
+        width: 1280px;
+    }
+
+    .information__items {
+        margin-left: 100px;
+    }
+}
+
+@media(max-width: 992px) {
+    .header {
+        padding: 10px;
+    }
+
+    .header__link {
+        font-size: 10px;
+    }
+
+    .header__location-item {
+        margin-right: 23px;
+    }
+
+    .header__location-link {
+        font-size: 10px;
+    }
+
+    .lead__img {
+        width: 49px;
+        height: 40px;
+        margin-right: 10px;
+    }
+
+    .lead__item:not(:last-child) {
+        margin-right: 10px;
+    }
+
+    .lead__link {
+        font-size: 12px;
+    }
+
+    .lead__item_type_more {
+        font-size: 12px;
+    }
+
+    .lead__button_type_phone {
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+    }
+
+    .lead__button_type_application {
+        width: 140px;
+        height: 30px;
+        font-size: 12px;
+    }
+
+    .slider__image {
+        width: 992px;
+    }
+
+    .information__items {
+        margin-left: 0;
+    }
+
+    .information__block {
+        width: 400px;
+        height: 540px;
+    }
+
+    .block__text {
+        font-size: 30px;
+        line-height: 40px;
+        margin: 0 0 15px 15px;
+    }
+
+    .information__event {
+        width: calc(595px - 15px * 2);
+        padding: 27px 15px;
+    }
+
+}
+
+@media(max-width: 768px) {
+    .header {
+        flex-direction: column;
+    }
+
+    .header__links-items {
+        margin-bottom: 10px;
+    }
+
+    .header__link-item:not(:last-child) {
+        margin-right: 30px;
+    }
+
+    .header__link {
+        font-size: 12px;
+    }
+
+    .header__location {
+        margin-bottom: 10px;
+    }
+
+    .header__location-item {
+        margin-right: 40px;
+    }
+
+    .header__location-item:last-child {
+        margin-right: 15px;
+    }
+
+    .header__location-link {
+        font-size: 12px;
+    }
+
+    .header__location-number {
+        font-size: 12px;
+    }
+
+    .lead {
+        padding: 14px 10px 25px 10px;
+        align-items: center;
+    }
+
+    .lead__img {
+        width: 39px;
+        height: 30px;
+    }
+
+    .lead__items {
+        justify-content: center;
+        flex-wrap: wrap;
+        max-width: 400px;
+    }
+
+    .information__items {
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-start;
+    }
+
+    .slider__image {
+        width: 768px;
+    }
+}
+
+@media(max-width: 480px) {
+    .information__event {
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+    }
+
+    .event__heading {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding: 0;
+        border-right: none;
+        border-bottom: 1px solid #E3E2E8;
+    }
+
+    .event__info {
+        display: flex;
+        padding: 0 5px 10px 5px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .slider__image {
+        width: 480px;
+    }
+}
